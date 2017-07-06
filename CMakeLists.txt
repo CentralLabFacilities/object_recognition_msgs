@@ -15,11 +15,15 @@ add_message_files(
   FILES
   ObjectLocation.msg
   Hypothesis.msg
+  CategoryProbability.msg
+  CategoricalDistribution.msg
+  Recognition.msg
 )
 
 add_service_files(FILES 
     RecognizeObjects.srv 
     Classify.srv
+    Recognize.srv
     )
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs)
