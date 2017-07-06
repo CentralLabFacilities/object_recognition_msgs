@@ -11,7 +11,17 @@ find_package(catkin REQUIRED COMPONENTS
 
 link_directories(${catkin_LIBRARY_DIRS})
 
-add_service_files(FILES segcla.srv segment.srv)
+add_message_files(
+  FILES
+  ObjectLocation.msg
+  Hypothesis.msg
+)
+
+add_service_files(FILES 
+    RecognizeObjects.srv 
+    Classify.srv
+    )
+
 generate_messages(DEPENDENCIES sensor_msgs std_msgs)
 
 catkin_package(
