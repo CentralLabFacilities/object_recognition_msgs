@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>segmentation_msgs</name>
+  <name>object_recognition_msgs</name>
   <version>1.0.0</version>
   <description>messages for segmentation and classification service</description>
 

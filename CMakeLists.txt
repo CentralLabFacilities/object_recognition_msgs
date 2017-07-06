@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(segmentation_msgs)
+project(object_recognition_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
     roscpp
