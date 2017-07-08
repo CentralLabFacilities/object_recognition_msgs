@@ -1,5 +1,5 @@
 # possible labels for object
-string[] labels
+string labels
 
 # reliabilities of the label
-float32[] reliability
+float32 reliability

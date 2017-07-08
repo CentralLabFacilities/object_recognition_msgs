@@ -5,4 +5,4 @@ string name
 geometry_msgs/Polygon bounding_box
 
 # hypothesis for this object
-Hypothesis hypothesis
+Hypothesis[] hypotheses
