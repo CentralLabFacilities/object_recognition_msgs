@@ -15,6 +15,7 @@ add_message_files(
   FILES
   ObjectLocation.msg
   Hypothesis.msg
+  ObjectHypothesis.msg
   CategoryProbability.msg
   CategoricalDistribution.msg
   Recognition.msg

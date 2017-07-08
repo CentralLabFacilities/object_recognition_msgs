@@ -2,7 +2,7 @@
 string name 
 
 # objects 2D bounding box
-geometry_msgs/Polygon bounding_box
+sensor_msgs/RegionOfInterest bounding_box
 
 # hypothesis for this object
 Hypothesis[] hypotheses
