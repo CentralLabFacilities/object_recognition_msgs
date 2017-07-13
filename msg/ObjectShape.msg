@@ -6,7 +6,7 @@ sensor_msgs/RegionOfInterest bounding_box
 
 
 # center of the 3D object
-geometry_msgs/Point3 center
+geometry_msgs/Point center
 
 # height, width, depth of the 3D object
 float32 width
