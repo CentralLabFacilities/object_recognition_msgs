@@ -20,13 +20,15 @@ add_message_files(
   CategoryProbability.msg
   CategoricalDistribution.msg
   Recognition.msg
+  Annotation.msg
 )
 
 add_service_files(FILES 
     RecognizeObjects.srv 
     Classify.srv
     Recognize.srv
-    )
+    Annotate.srv
+)
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs)
 
