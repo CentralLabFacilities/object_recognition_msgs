@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
     rospy
     sensor_msgs
     std_msgs
+    grasping_msgs
     message_generation)
 
 link_directories(${catkin_LIBRARY_DIRS})
@@ -25,17 +26,19 @@ add_message_files(
 
 add_service_files(FILES 
     RecognizeObjects.srv 
+    DetectPlanes.srv
     Classify.srv
     Recognize.srv
     Annotate.srv
 )
 
-generate_messages(DEPENDENCIES sensor_msgs std_msgs)
+generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)
 
 catkin_package(
 	CATKIN_DEPENDS
 	sensor_msgs
 	std_msgs
+	grasping_msgs
 	message_runtime
 )
 

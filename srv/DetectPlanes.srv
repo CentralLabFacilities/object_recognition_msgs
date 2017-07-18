@@ -1,7 +1,5 @@
 
 ---
 
-# list of objects
-ObjectShape[] objects
 # list of planes
 grasping_msgs/Object[] support_surfaces
