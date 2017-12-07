@@ -21,6 +21,7 @@ add_message_files(
   CategoryProbability.msg
   CategoricalDistribution.msg
   Recognition.msg
+  BoundingBox.msg
   Annotation.msg
 )
 
