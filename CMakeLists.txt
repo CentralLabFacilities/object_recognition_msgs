@@ -23,6 +23,7 @@ add_message_files(
   Recognition.msg
   BoundingBox.msg
   Annotation.msg
+  Detection.msg
 )
 
 add_service_files(FILES 
@@ -31,6 +32,7 @@ add_service_files(FILES
     Classify.srv
     Recognize.srv
     Annotate.srv
+    Detect.srv
 )
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)
