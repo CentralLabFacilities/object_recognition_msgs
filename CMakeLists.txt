@@ -32,7 +32,7 @@ add_service_files(FILES
     Classify.srv
     Recognize.srv
     Annotate.srv
-    Detect.srv
+    DetectObjects.srv
 )
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)
