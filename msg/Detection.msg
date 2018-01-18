@@ -1,3 +1,3 @@
 # a detection consists of a CategoryProbability and RegionOfInterest
-CategoryProbability probability
-sensor_msgs/RegionOfInterest roi
+CategoryProbability category_probability
+BoundingBox bbox
