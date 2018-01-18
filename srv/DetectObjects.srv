@@ -1,0 +1,5 @@
+# Interface for detecting objects
+
+sensor_msgs/Image image
+---
+Detection[] detections
