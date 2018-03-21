@@ -1,0 +1,7 @@
+# Interface for detecting objects
+
+sensor_msgs/Image image
+#pointcloud ?
+ObjectShape[] objectShapeList
+---
+bool done
