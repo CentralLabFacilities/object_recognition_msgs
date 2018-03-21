@@ -33,6 +33,8 @@ add_service_files(FILES
     Recognize.srv
     Annotate.srv
     DetectObjects.srv
+    DepthLookup.srv
+    Segment.srv
 )
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)
