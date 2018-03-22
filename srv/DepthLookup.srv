@@ -1,7 +1,5 @@
 # Interface for detecting objects
 
-sensor_msgs/Image image
-#pointcloud ?
 ObjectLocation[] objectLocationList
 ---
 ObjectShape[] objectShapeList
