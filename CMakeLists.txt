@@ -30,6 +30,9 @@ add_service_files(FILES
     Classify.srv
     Recognize.srv
     Annotate.srv
+    DetectObjects.srv
+    DepthLookup.srv
+    Segment.srv
 )
 
 generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)

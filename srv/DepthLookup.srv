@@ -1,0 +1,5 @@
+# Interface for detecting objects
+
+ObjectLocation[] objectLocationList
+---
+ObjectShape[] objectShapeList
