@@ -1,5 +1,7 @@
 # Interface for detecting objects
 
 sensor_msgs/Image image
+bool doSegmentation
 ---
 ObjectLocation[] objectLocationList
+bool segmentationResult
