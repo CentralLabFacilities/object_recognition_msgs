@@ -2,4 +2,4 @@
 
 ObjectShape[] objectShapeList
 ---
-bool done
+ObjectShape[] objectShapeList

@@ -3,5 +3,4 @@
 sensor_msgs/Image image
 bool doSegmentation
 ---
-ObjectLocation[] objectLocationList
-bool segmentationResult
+ObjectShape[] objectShapeList
