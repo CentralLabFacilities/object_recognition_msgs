@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
     sensor_msgs
     std_msgs
     grasping_msgs
+    vision_msgs
     message_generation)
 
 link_directories(${catkin_LIBRARY_DIRS})
@@ -28,6 +29,7 @@ add_service_files(FILES
     RecognizeObjects.srv 
     DetectPlanes.srv
     Classify.srv
+    Classify2D.srv
     Recognize.srv
     Annotate.srv
     DetectObjects.srv
@@ -35,7 +37,7 @@ add_service_files(FILES
     Segment.srv
 )
 
-generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs)
+generate_messages(DEPENDENCIES sensor_msgs std_msgs grasping_msgs vision_msgs)
 
 catkin_package(
 	CATKIN_DEPENDS
