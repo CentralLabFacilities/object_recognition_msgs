@@ -13,5 +13,11 @@ float32 width
 float32 height
 float32 depth
 
+# quaternion representation of rotation of this object
+float32 quadx
+float32 quady
+float32 quadz
+float32 quadw
+
 # hypothesis for this object
 Hypothesis[] hypotheses
